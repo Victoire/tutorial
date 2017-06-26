@@ -17,3 +17,13 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+
+    fos_js_base_url: https://tutorial.victoire.dev
+    victoire_redis_path: redis://127.0.0.1:6379
+    locale_pattern_table:
+        tutorial.victoire.dev: en
+
+    node_path: /usr/local/bin/node
+    node_paths:
+        - /usr/local/lib/node_modules
+        - /usr/local/share/npm/lib/node_modules

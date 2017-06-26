@@ -1,5 +1,5 @@
 {
-    "name": "lenybernard/tuto",
+    "name": "lenybernard/project2606",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -31,7 +31,11 @@
         "symfony/polyfill-apcu": "^1.0",
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.2.*",
-        "twig/twig": "^1.0||^2.0"
+        "twig/twig": "~2.0",
+        "victoire/button-widget": "^2.0",
+        "victoire/image-widget": "^2.0",
+        "victoire/text-widget": "^2.0",
+        "victoire/victoire": "^2.3"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
